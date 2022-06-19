@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.navbar {
+    background-color: #1f2020;
+  }
+  
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+a#logo-link {
+    margin: 0;
+}
+
+img#youtube-logo {
+    width: 100px;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+div#sidebar {
+    background-color: #000;
+    color: #fff;
+}
+
+
+section#main-content {
+    margin-top: 70px;
+}
