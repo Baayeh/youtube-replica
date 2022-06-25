@@ -121,3 +121,8 @@ div#playlist a img {
 div.thumbnail-content small {
     color: #767676;
 }
+
+div#creator-img img {
+    width: 50px;
+    border-radius: 50px;
+}
