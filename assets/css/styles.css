@@ -36,6 +36,56 @@ div#sidebar {
     color: #fff;
 }
 
+form {
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    padding: 7px;
+    border: 1px solid #525454;
+    background-color: #000;
+    color: #fff;
+    width: 500px;
+}
+
+input:focus {
+    border: 1px solid #0077f3;
+    outline: none;
+}
+
+button#search-btn {
+    background-color: #e9ecef59;
+    border: none;
+    color: #fff;
+}
+
+button#microphone-btn {
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+section#menu-tools button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+img#avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+button#avatar {
+    
+}
 
 section#main-content {
     margin-top: 70px;

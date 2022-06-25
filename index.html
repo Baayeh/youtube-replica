@@ -16,15 +16,50 @@
         <!-- Navbar and sidebar -->
 
         <nav class="navbar fixed-top p-0">
-            <div class="container-fluid">
-                <div class="logo-wrapper">
+            <div class="container-fluid justify-content-space-between py-1">
+                <section class="logo-wrapper">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasNavbar">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                    <a id="logo-link" class="navbar-brand p-0" href="#">
+                    <a id="logo-link" class="navbar-brand p-0 ms-2" href="#">
                         <img id="youtube-logo" src="./assets/images/YOUTUBE_LOGO_dark.png" alt="YOUTUBE LOGO">
                     </a>
-                </div>
+                </section>
+
+                <form class="d-flex" role="search">
+                    <div class="d-flex me-2">
+                        <input type="text" name="searchVideo" id="search">
+                    
+                        <button id="search-btn" class="py-2 px-4">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <button id="microphone-btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Search with your voice" data-bs-animation="true">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                </form>
+
+                <section id="menu-tools" class="me-3">
+                    <button id="create-video" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Create" data-bs-animation="true">
+                        <i class="fa-solid fa-video"></i>
+                    </button>
+
+                    <button id="all-apps" data-bs-toggle="tooltip" data-bs-placement="bottom" title="All apps" data-bs-animation="true">
+                        <i class="fa-solid fa-grip"></i>
+                    </button>
+
+                    <button id="notifications" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Notifications" data-bs-animation="true">
+                        <i class="fa-solid fa-bell"></i>
+                    </button>
+
+                    <button id="avatar">
+                        <img id="avatar" src="./assets/images/avatar.jpeg" alt="avatar">
+                    </button>
+                </section>
+
+                
+
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -54,7 +89,7 @@
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <button class="btn btn-outline-success" type="submit" aria-placeholder="Search">Search</button>
                         </form>
                     </div>
                 </div>
