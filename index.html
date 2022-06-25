@@ -16,7 +16,9 @@
         <!-- Navbar and sidebar -->
 
         <nav class="navbar fixed-top p-0">
+
             <div class="container-fluid justify-content-space-between py-1">
+
                 <section class="logo-wrapper">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasNavbar">
                         <i class="fa-solid fa-bars"></i>
@@ -28,7 +30,7 @@
 
                 <form class="d-flex" role="search">
                     <div class="d-flex me-2">
-                        <input type="text" name="searchVideo" id="search">
+                        <input type="text" name="searchVideo" id="search" placeholder="Search">
                     
                         <button id="search-btn" class="py-2 px-4">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -58,8 +60,7 @@
                     </button>
                 </section>
 
-                
-
+                <!-- Sidebar -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -93,8 +94,11 @@
                         </form>
                     </div>
                 </div>
+
             </div>
+
         </nav>
+
 
         <!-- Main Content -->
         
@@ -102,12 +106,130 @@
             
             <div class="container">
                 
-                <div class="col-md-8">
-                    <section id="video-display"></section>
-                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <section id="video-display">
+                            <iframe width="870" height="540" src="https://www.youtube.com/embed/SlXhvv_Z0jw" title="Ghost | Awkward Puppets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </section>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <section id="video-lists">
+                            <div id="ads">
+                                <a href="#">Buy your ad space here!!</a>
+                            </div>
 
-                <div class="col-md-4">
-                    <section id="video-lists"></section>
+                            <div id="playlist">
+                                <a href="#" class="playlist-link d-block mt-2">
+                                    <div class="container-fluid p-0">
+                                        <div class="row gy-0">
+                                            <div class="col-md-6 thumbnail">
+                                                 <img class="img-playlist" src="./assets/images/pexels-leah-kelley-12128377.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6 thumbnail-content">
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                                <small>Lorem Ipsum</small>
+                                                <div>
+                                                    <small>18k Views</small> | 
+                                                    <small>an hour ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="playlist-link d-block mt-2">
+                                    <div class="container-fluid p-0">
+                                        <div class="row gy-0">
+                                            <div class="col-md-6 thumbnail">
+                                                 <img class="img-playlist" src="./assets/images/pexels-mehmet-turgut-kirkgoz-12303803.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6 thumbnail-content">
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                                <small>Lorem Ipsum</small>
+                                                <div>
+                                                    <small>18k Views</small> | 
+                                                    <small>an hour ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="playlist-link d-block mt-2">
+                                    <div class="container-fluid p-0">
+                                        <div class="row gy-0">
+                                            <div class="col-md-6 thumbnail">
+                                                 <img class="img-playlist" src="./assets/images/pexels-leah-kelley-12128377.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6 thumbnail-content">
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                                <small>Lorem Ipsum</small>
+                                                <div>
+                                                    <small>18k Views</small> | 
+                                                    <small>an hour ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="playlist-link d-block mt-2">
+                                    <div class="container-fluid p-0">
+                                        <div class="row gy-0">
+                                            <div class="col-md-6 thumbnail">
+                                                 <img class="img-playlist" src="./assets/images/pexels-mehmet-turgut-kirkgoz-12303803.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6 thumbnail-content">
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                                <small>Lorem Ipsum</small>
+                                                <div>
+                                                    <small>18k Views</small> | 
+                                                    <small>an hour ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="playlist-link d-block mt-2">
+                                    <div class="container-fluid p-0">
+                                        <div class="row gy-0">
+                                            <div class="col-md-6 thumbnail">
+                                                 <img class="img-playlist" src="./assets/images/pexels-leah-kelley-12128377.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6 thumbnail-content">
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                                <small>Lorem Ipsum</small>
+                                                <div>
+                                                    <small>18k Views</small> | 
+                                                    <small>an hour ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="playlist-link d-block mt-2">
+                                    <div class="container-fluid p-0">
+                                        <div class="row gy-0">
+                                            <div class="col-md-6 thumbnail">
+                                                 <img class="img-playlist" src="./assets/images/pexels-mehmet-turgut-kirkgoz-12303803.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6 thumbnail-content">
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                                <small>Lorem Ipsum</small>
+                                                <div>
+                                                    <small>18k Views</small> | 
+                                                    <small>an hour ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
                 </div>
 
             </div>

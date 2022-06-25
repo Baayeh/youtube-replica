@@ -88,5 +88,36 @@ button#avatar {
 }
 
 section#main-content {
-    margin-top: 70px;
+    margin-top: 90px;
+}
+
+div#ads {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    background: crimson;
+}
+
+div#ads a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+div#playlist {
+    position: relative;
+}
+
+div#playlist a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div#playlist a img {
+    width: 210px;
+    border: 2px solid #fff;
+}
+
+div.thumbnail-content small {
+    color: #767676;
 }
